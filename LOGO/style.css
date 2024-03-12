@@ -1,0 +1,34 @@
+* {
+    padding: 0;
+    margin: 20;
+}
+.logo > a{
+    display: flex;
+    font-size: 10px;
+}
+.nav_container{
+display: flex;
+margin-right: 5px;
+justify-content: space-between;
+nav-index: inherit;
+}
+
+.ul_nav{
+    display: flex;
+}
+
+body{
+    background-color: brown;
+    
+}
+.logo_text{
+    color: blueviolet;
+}
+.parent{
+    color: blueviolet;
+    
+}
+.parent_h1{
+    color: blueviolet;
+    
+}
