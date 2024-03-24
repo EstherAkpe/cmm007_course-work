@@ -85,6 +85,7 @@ a {
 }
 
 .div_container > p{
+    padding: 0%;
     text-align: right;
     display: flex;
     
@@ -133,7 +134,28 @@ a {
     margin: 5% auto;
     padding: 5%;
 }
-.ul_container{
-    
+.con_1{
+    padding: 1%;
+    display: flex;
+    justify-content: space-between;
+}
+.roll_3 {
+    padding: 1%;
+}
+.roll_5{
+    padding: 1%;
+}
+.group_4{
+    padding: 5%;
+    justify-content: right;
+}
+footer{
+    display: flex;
+}
+footer>div{
+    width: 300px;
+}
+.group_4{
+    display: flex;
 }
 
