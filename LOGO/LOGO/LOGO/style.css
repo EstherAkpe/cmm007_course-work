@@ -1,0 +1,233 @@
+* {
+    padding: 0;
+    margin:0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    border-radius: 10px;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+.nav_container {
+    width: 50%;
+}
+.ul_nav{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.ul_nav > li {
+    list-style-type: none;
+    border: 1px solid;
+    width: 18%;
+    text-align: center;
+    margin: auto 10px;
+    
+}
+
+.ul_nav a{
+    color: white;
+}
+    
+ .Esty{
+    background-color: black;
+
+} 
+.quency{
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pp{
+    margin-left: 220px;
+    margin-top: 60px;
+}
+
+.pp  p{
+    color: white;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.parent img{
+    width: 650px;
+    height: 400px;
+    border-radius: 20px;
+
+}
+
+.foot p{
+    color: white;
+    margin-top: 200px;
+}
+
+
+.connect {
+    display: flex;
+    width: 100px;
+    justify-content: space-between;
+}
+.ab{
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: auto;
+
+}
+
+.div_container > p{
+    padding: 0%;
+    text-align: right;
+    display: flex;
+    
+
+ }  
+
+.login-body {
+    background-image: url('./Grp_rice.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+
+}
+
+/*.login-form {
+    border: 1px solid;
+    width: 40%;
+    margin: 5% auto;
+    padding: 5%;*/
+    
+}
+.p3{
+    display: flex;
+    width: 100px;
+    justify-content: space-between;
+}
+.conet {
+   margin-top: 400px;
+}
+.coneet {
+    display: flex;
+    width: 100px;
+    justify-content: space-between;
+}
+.Registration-body {
+   /* background-image: url('./Grp_rice.jpg');*/
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+}
+.Registration-form{
+    border: 1px solid;
+    width: 40%;
+    margin: 5% auto;
+    padding: 5%;
+}
+.con_1{
+    padding: 1%;
+    display: flex;
+    justify-content: space-between;
+}
+.roll_3 {
+    padding: 1%;
+}
+.roll_5{
+    padding: 1%;
+}
+.group_4{
+    padding: 5%;
+    justify-content: right;
+}
+footer{
+    display: flex;
+}
+footer>div{
+    width: 300px;
+}
+.group_4{
+    display: flex;
+    padding: 1%;
+    
+}
+.ind_4{
+    display: flex;
+    padding: 1%;
+}
+.ind_5{
+    display: flex;
+    padding: 1%;
+}
+.ind_6{
+    padding: 0%;
+}
+.sal_4{
+    padding: 1%;
+}
+.sal_5{
+    padding: 1%;
+}
+.vid_1{
+    padding: 1%;
+    display: flex;
+}
+.sal_7{
+    display: flex;
+}
+.sal_8{
+    padding: 1%;
+}.sal_9{
+    padding: 1%;
+}
+.sal_10{
+    padding: 1%;
+}
+.sal_11{
+    padding: 1%;
+}
+.sal_12{
+    padding: 1%;
+}
+.sal_13{
+    padding: 1%;
+}
+.sal_14{
+    padding: 1%;
+}
+.sal_15{
+    padding: 1%;
+}
+.sal_16{
+    padding: 1%;
+}
+.sal_17{
+    padding: 1%;
+}
+.sal_18{
+    padding: 1%;
+}
+.sal_19{
+    padding: 1%;
+}
+.sal_image{
+    padding: 2%;
+}
+.sal_20{
+    padding: 1%;
+}
+.sal_21{
+    padding: 1%;
+}
+
+
+
