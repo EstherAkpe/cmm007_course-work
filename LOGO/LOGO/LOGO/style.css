@@ -75,7 +75,7 @@ a {
 .connect {
     display: flex;
     width: 100px;
-    justify-content: space-between;
+    justify-content: space-between;  
 }
 .ab{
     border-radius: 10px;
@@ -88,9 +88,13 @@ a {
     padding: 0%;
     text-align: right;
     display: flex;
-    
-
- }  
+ } 
+ .p2{
+    padding: 1%;
+ }
+ .p4{
+    padding: 1%;
+ } 
 
 .login-body {
     background-image: url('./Grp_rice.jpg');
@@ -121,6 +125,8 @@ a {
     width: 100px;
     justify-content: space-between;
 }
+
+
 .Registration-body {
    /* background-image: url('./Grp_rice.jpg');*/
     background-repeat: no-repeat;
@@ -149,16 +155,30 @@ a {
     padding: 5%;
     justify-content: right;
 }
-footer{
+.footer > us{
     display: flex;
 }
 footer>div{
     width: 300px;
 }
 .group_4{
-    display: flex;
+    
     padding: 1%;
     
+}
+.group_2{
+    padding: 1%;
+}
+.group_5{
+    padding: 1%;
+}
+.group_6{
+    padding: 1%;
+}
+
+
+.ind_2{
+    padding: 1%;
 }
 .ind_4{
     display: flex;
@@ -168,8 +188,11 @@ footer>div{
     display: flex;
     padding: 1%;
 }
-.ind_6{
-    padding: 0%;
+.ind_7{
+    padding: 1%;
+}
+.sal_2{
+    padding: 1%;
 }
 .sal_4{
     padding: 1%;
@@ -220,12 +243,133 @@ footer>div{
     padding: 1%;
 }
 .sal_image{
-    padding: 2%;
+    padding: 5%;
 }
 .sal_20{
     padding: 1%;
 }
 .sal_21{
+    padding: 1%;
+}
+.sal_22{
+    padding: 1%;
+}
+.sal_23{
+    padding: 1%;
+}
+.sal_24{
+    padding: 1%;
+}
+.sal_25{
+    padding: 1%;
+}
+.joll_2{
+    padding: 1%;
+}
+.joll_4{
+    padding: 1%;
+}
+.joll_5{
+    padding: 1%;
+}
+
+.joll_6{
+    padding: 1%;
+}
+.joll_7{
+    padding: 1%;
+}
+.joll_8{
+    padding: 1%;
+}
+.joll_9{
+    padding: 1%;
+}
+.joll_10{
+    padding: 1%;
+}
+.joll_image{
+    padding: 5%;
+}
+.joll_image1{
+    padding: 5%;
+}
+.joll_image2{
+    padding: 5%;
+}
+.joll_11{
+    padding: 1%;
+}
+.joll_image3{
+    padding: 5%;
+}
+.joll_12{
+    padding: 1%;
+}
+.joll_image4{
+    padding: 5%;
+}.joll_13{
+    padding: 1%;
+}
+.joll_image5{
+    padding: 5%;
+}
+.joll_14{
+    padding: 1%;
+}
+.joll_15{
+    padding: 1%;
+}
+.joll_image6{
+    padding: 5%;
+}
+.joll_16{
+    padding: 1%;
+}
+
+.pla_2{
+    padding: 1%;
+}
+.pla_4{
+    padding: 1%;
+}
+.pla_5{
+    padding: 1%;
+}
+.pla_6{
+    padding: 1%;
+}
+.pla_15{
+    padding: 1%;
+}
+.pla_17{
+    padding: 1%;
+}
+.chi_5{
+    padding: 1%;
+}
+.chi_8{
+    padding: 1%;
+}
+.chi_7{
+    padding: 1%;
+}
+.chi_9{
+    padding: 1%;
+}
+.chi_10{
+    padding: 1%;
+}
+.chi_11{
+    padding: 1%;
+}
+.chi_12{
+    padding: 1%;
+}
+.chi_13{
+    padding: 1%;
+}
+.chi_14{
     padding: 1%;
 }
 
