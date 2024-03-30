@@ -1,0 +1,55 @@
+<html>
+<head>
+    <title>Delete Form</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <div>
+        <header>
+            <nav class="nav_container4">
+                <ul class="ul_nav4">
+                    <li>
+                        <a href="about us.html">About Us</a>
+                    </li>
+                    <li>
+                        <a href="login.html">Login</a>
+                    </li>
+                    <li>
+                        <a href="register.html">Register</a>
+                    </li>
+                    <li>
+                        <a href="group recipes.html">Group Recipes</a>
+                    </li>
+                    <li>
+                        <a href="individual recipes.html">Individual Recipes</a>
+                    </li>
+                    <li>
+                        <a href="contact us.html">Contact Us</a>
+                    </li>
+                </ul>
+            </nav>
+            </header>
+        </div>
+    <!--<h1>Welcome to EstacyRice</h1>-->
+    <div class="L_image">  
+        <img src="Grp_rice.jpg" alt="Rice image" width="1270px" height="350px"> 
+    </div>
+    <h3>You can Delete a Recipe here</h3>
+    <form method="post" action="deleteRecipe.php">
+        <label>Recipe Name:</label>
+        <input type="text" name="RecipeName" />
+        <br><br>
+        <input type="submit" name="submit" value="Search to Delete" />
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="button" value="Reset" />
+    </form>
+    <footer>
+        <div>
+            <p>To go back to the Home Page click below.</p>
+           <h2>
+              <a href="Home.html"> Home Page</a>
+           </h2>
+        </div>
+    </footer>
+</body>
+</html>
