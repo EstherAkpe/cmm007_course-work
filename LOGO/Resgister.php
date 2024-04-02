@@ -5,16 +5,17 @@ include('connection.php');
  $Firstname=$_POST['firstname'];
  $Email=$_POST['email'];
  $Password=$_POST['password'];
- $confirmpassword=$_POST['confirmpassword'];
+ $Username=$_POST['username'];
+ $confirmPassword=$_POST['confirmPassword'];
 
-    if($password !== $confirmpassword)
-    {
-       echo "password and confirm password are not same";
-    }
+    //if($password !== $confirmPassword)
+    //{
+     // echo "password and confirm password are not same";
+    //}
        
-    else
+    //else
     {   
-        $sql = "INSERT INTO blogusers (firstname,lastname,email,password) VALUES ('$Lastname','$Firstname','$Email','$Password')";
+        $sql = "INSERT INTO users (username,firstname,lastname,email,password) VALUES ('$username','$Lastname','$Firstname','$Email','$Password')";
         $result = mysqli_query($db, $sql);
 
         if($result)

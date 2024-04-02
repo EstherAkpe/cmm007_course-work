@@ -39,27 +39,32 @@
         </div>
         <form class="row_3 registration-form" action="Resgister.php" method="post">
             <div class="essy">
+                <label for="username" class="form-label username">User name</label><br>
+                <input type="text" class="form-control username" name="username" id="username" placeholder="******" required><br>
+              </div>
+            <div class="essy">
               <label for="Lastname" class="form-label lastname">Lastname</label><br>
-              <input type="text" class="form-control lastname" id="Lastname" placeholder="" required><br>
+              <input type="text" class="form-control lastname" name="lastname" id="Lastname" placeholder="******" required><br>
             </div>
             <div class="essay">
                 <label for="Firstname" class="form-label firstname_label">Firstname</label><br>
-                <input type="text" class="form-control Firstname" id="Firstname" placeholder="" required><br>
+                <input type="text" class="form-control Firstname" name="firstname"  id="Firstname" placeholder="******" required><br>
             </div>
             <div class="esay">
                 <label for="email address" class="form-label email address">Email Address</label><br>
-                <input type="text" class="form-control Email Address" id="email address" placeholder="" required><br>
+                <input type="text" class="form-control Email Address" name="email" id="email address" placeholder="******" required><br>
               </div>
               <div class="essey">
                   <label for="password" class="form-label password_label">Password</label><br>
-                  <input type="password" class="form-control password" id="password" placeholder="" required><br>
+                  <input type="password" class="form-control password" name="password" id="password" placeholder="******" required><br>
               </div>
-              <div class="esey">
-                <label for="confirm password" class="form-label  confirm password_label">Confirm Password</label><br>
-                <input type="confirm password" class="form-control confirm password" id="onfirm password" placeholder="" required><br>
+             <div class="esey">
+                <!--<label for="confirmPassword" class="form-label confirmPassword_label">Confirm Password</label><br>
+                <input type="password"id="confirmPassword" name="confirmPassword" placeholder="******" required><br>-->
+                
             </div>
             <div class="eesy">
-                <button class="btn btn-dark p-2 w-100" type="register">Register form</button>
+                <button class="btn" type="register">Register form</button>
             </div>
         </form>
     <footer>
@@ -79,7 +84,5 @@
             </ul>
         </di>
     </footer>
-</body>
-</html>
 </body>
 </html>

@@ -230,10 +230,10 @@ a {
     padding: 5%;
     justify-content: right;
 }
-.footer > us{
+.footer > Us {
     display: flex;
 }
-footer>div{
+.footer > div{
     width: 300px;
 }
 .group_img{
@@ -453,6 +453,59 @@ footer>div{
     padding: 1%;
 }
 .chi_14{
+    padding: 1%;
+}
+.coco_4{
+    padding: 1%;
+}
+.coco_5{
+    padding: 1%;
+}
+.coco_6{
+    padding: 1%;
+}
+.coco_7{
+    padding: 1%;
+}
+.cocoimage1{
+    padding: 5%;
+    border-radius: 20%;
+}
+.cocoimage2{
+    padding: 5%;
+    border-radius: 5%;
+}
+.cocoimage3{
+    padding: 5%;
+    border-radius: 5%;
+}
+.cocoimage4{
+    padding: 5%;
+    border-radius: 5%;
+}
+.cocoimage5{
+    padding: 5%;
+    border-radius: 5%;
+}
+.cocoimage6{
+    padding: 5%;
+    border-radius: 5%;
+}
+.cocoimage7{
+    padding: 5%;
+    border-radius: 5%;
+}
+.cocoimage8{
+    padding: 5%;
+    border-radius: 5%;
+}
+.coco_9{
+    padding: 1%;
+}
+.coco_8{
+    padding: 1%;
+}
+.coco_10{
     padding: 1%;
 }
 
