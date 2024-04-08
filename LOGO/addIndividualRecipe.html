@@ -35,8 +35,23 @@
         <img src="Grp_rice.jpg" alt="Rice image" width="1270px" height="350px"> 
     </div>
     <div> 
-    <nav class="row_1 login-form">
-        <h3><a href="../LOGO/addIndividualRecipe.html">Add Individual Recipe</a><br><a href="../LOGO/addgrouprecipe.html">Add Group Recipe</a></h1>
+    <nav class="nav_form" >
+        <form class="row_1 login-form" method="post" action="addIndividualRecipe.php">
+            <h3>Add Inividual Recipe here</h3>
+            <label>Chef Name</label>
+            <input type="text" name="chefname" /><br><br>
+            <label>Category:&nbsp;&nbsp;</label>
+            <input type="text" name="category" /> <br><br>
+            <label>Recipe Name:&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="text" name="RecipeName" /> <br><br>
+           <label>Ingredients:&nbsp;&nbsp;&nbsp;</label>
+            <textarea name="Ingredients" id="Ingredients" rows="5" cols="20"> </textarea>
+            <label>Directions:&nbsp;&nbsp;&nbsp;</label>
+            <textarea name="Directions" id="Directions" rows="10" cols="20"> </textarea>
+            &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="submit" name="submit" value="Submit" />
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="button" value="Reset" />>
         </nav>
         </div> 
         </form>

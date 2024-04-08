@@ -39,7 +39,7 @@
     </div>
 
      <?php include('fetchindividualrecipe.php'); ?>
-   <form class="ind_3 Individual Recipes-form" action="Individual Recipes.php" method="post">
+   <!--<form class="ind_3 Individual Recipes-form" action="Individual Recipes.php" method="post">
         <div class="ind_4">
             <img src="Salad.jpeg" alt="Salad image" width="180px" height="180px">
             <li>
@@ -61,7 +61,7 @@
             <li>
                 <a href="coconut rice recipe.html">Coconut Rice Recipes</a>
             </li>
-        </div>
+        </div>-->
         <div>
             <ul class="ind_7">
                 <p>To Explore more on the Individual Recipe, Click on each of them.</p>

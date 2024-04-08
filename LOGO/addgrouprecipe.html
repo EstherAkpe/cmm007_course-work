@@ -35,8 +35,24 @@
         <img src="Grp_rice.jpg" alt="Rice image" width="1270px" height="350px"> 
     </div>
     <div> 
-    <nav class="row_1 login-form">
-        <h3><a href="../LOGO/addIndividualRecipe.html">Add Individual Recipe</a><br><a href="../LOGO/addgrouprecipe.html">Add Group Recipe</a></h1>
+    <nav class="nav_form" >
+        <form class="row_1 login-form" method="post" action="addgrouprecipe.php">
+            <h3>Add Group Recipe here</h3>
+            <label>Chef Name</label>
+            <input type="text" name="chefname" /><br><br>
+            <label>recipename:&nbsp;&nbsp;</label>
+            <input type="text" name="necipename" /> <br><br>
+            <label>image_name:&nbsp;&nbsp;</label>
+            <input type="text" name="image_name" /> <br><br>
+            <label>recipe1:&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <textarea name="recipe1" id="recipe1" rows="5" cols="20"> </textarea>
+           <label>recipe2:&nbsp;&nbsp;&nbsp;</label>
+            <textarea name="recipe2" id="recipe2" rows="5" cols="20"> </textarea>
+           <!----<form class="row_1 login-form" action="upload image.php" method="post" enctype="multipart/form-data">
+                <label for="image">Choose a Image to Upload</label>-->
+                <input type="file" id="image_name" name="image_name" accept="image_name/*"><br>
+                <input type="submit" value="Uplaod">
+            <input type="button" value="Reset" />>
         </nav>
         </div> 
         </form>

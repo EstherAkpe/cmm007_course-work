@@ -12,29 +12,29 @@
                     {
                         $row = $result->fetch_assoc();
                         
-                        $chef_id=$row["chef_id"];
+                        $chefname=$row["chefname"];
                         $category=$row["category"];
-                        $RecipeName=$row["RecipeName"];
-                        $Ingredients=$row["Ingredients"];
-                        $Directions=$row["Directions"];
+                        $recipeName=$row["recipeName"];
+                        $ingredients=$row["ingredients"];
+                        $directions=$row["directions"];
 
                         echo"
                         <html>
                         <body>
                         <form method='post' action='updateRecipe.php'>
                             <label>Chef Name:</label>
-                            <input type='text' name='chef_id' value='$chef_id'/><br><br>
+                            <input type='text' name='chefname' value='$chefname'/><br><br>
                             <label>Category:&nbsp;&nbsp;</label>
                             <input type='text' name='category' value='$category'/> <br><br>
                             <label>Recipe Name:&nbsp;&nbsp;&nbsp;&nbsp;</label>
                             <input type='text' name='RecipeName' value='$RecipeName'/> <br><br>
                             <label>Ingredients:&nbsp;&nbsp;&nbsp;</label>
                             <textarea name='Ingredients' id='Ingredients' value=''  rows='5' cols='100'>".
-                            $row['Ingredients'].
+                            $row['ingredients'].
                             "</textarea><br><br>
                             <label>Directions:&nbsp;&nbsp;&nbsp;</label>
                             <textarea name='Directions' id='Directions' value='' rows='10' cols='100'>".
-                            $row['Directions'].
+                            $row['directions'].
                             "</textarea><br><br>
                             &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
                             <input type='submit' name='submit' value='Submit' />

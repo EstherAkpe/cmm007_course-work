@@ -2,19 +2,19 @@
 
 include('connection.php');
  $chefname=$_POST['chefname'];
- $category=$_POST['category'];
- $RecipeName=$_POST['RecipeName'];
- $Ingredients=$_POST['Ingredients'];
- $Directions=$_POST['Directions'];
+ $recipename=$_POST['recipename'];
+ $recipe1=$_POST['recipe1'];
+ $recipe2=$_POST['recipe2'];
+ $image_name=$_POST['image_name'];
 
-    if(empty($_POST["chefname"]) || empty($_POST["category"]) || empty($_POST["RecipeName"]) || empty($_POST["Ingredients"]) || empty($_POST["Directions"]))
+    if(empty($_POST["chefname"]) || empty($_POST["recipename"]) || empty($_POST["recipe1"]) || empty($_POST["recipe2"]) || empty($_POST["image_name"]))
     {
         echo "All fields are required.";
     }
        
     else
     {   
-        $sql = "INSERT INTO recipemethod (chefname,category,RecipeName,Ingredients,Directions) VALUES ('$chefname','$category','$RecipeName','$Ingredients','$Directions')";
+        $sql = "INSERT INTO grouprecipe (chefname,recipename,recipe1,recipe2,image_name) VALUES ('$chefname','$recipename','$recipe1','$recipe2','$image_name')";
         $result = mysqli_query($db, $sql);
 
         $db_host='localhost';
