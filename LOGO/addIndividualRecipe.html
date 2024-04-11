@@ -35,25 +35,31 @@
         <img src="Grp_rice.jpg" alt="Rice image" width="1270px" height="350px"> 
     </div>
     <div> 
-    <nav class="nav_form" >
-        <form class="row_1 login-form" method="post" action="addIndividualRecipe.php">
-            <h3>Add Inividual Recipe here</h3>
-            <label>Chef Name</label>
-            <input type="text" name="chefname" /><br><br>
-            <label>Category:&nbsp;&nbsp;</label>
-            <input type="text" name="category" /> <br><br>
-            <label>Recipe Name:&nbsp;&nbsp;&nbsp;&nbsp;</label>
-            <input type="text" name="RecipeName" /> <br><br>
-           <label>Ingredients:&nbsp;&nbsp;&nbsp;</label>
-            <textarea name="Ingredients" id="Ingredients" rows="5" cols="20"> </textarea>
-            <label>Directions:&nbsp;&nbsp;&nbsp;</label>
-            <textarea name="Directions" id="Directions" rows="10" cols="20"> </textarea>
-            &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
-            <input type="submit" name="submit" value="Submit" />
-            &nbsp;&nbsp;&nbsp;&nbsp;
-            <input type="button" value="Reset" />>
-        </nav>
-        </div> 
+        <nav class="nav_form" >
+    
+            <form class="row_1 login-form" method="post" action="addIndividualRecipe.php" enctype="multipart/form-data">
+                <label for="chefname">Chef Name:</label><br>
+                <input type="text" id="chefname" name="chefname"><br>
+                
+                <label for="category">Category:</label><br>
+                <input type="text" id="category" name="category"><br>
+                
+                <label for="recipe name">Recipe name:</label><br>
+                <textarea id="recipename" name="recipename"></textarea><br>
+                
+                <label for="ingredients">Ingredients:</label><br>
+                <textarea id="ingredients" name="ingredients"></textarea><br>
+
+                <label for="directions">Directions:</label><br>
+                <textarea id="directions" name="directions"></textarea><br>
+
+                <label for="image_name">Image Name:</label><br>
+                <input type="file" id="image_name" name="image_name"><br>
+                
+                <input type="submit" value="Submit">
+            </form>
+                   
+            </nav>
         </form>
     <footer>
          <div>

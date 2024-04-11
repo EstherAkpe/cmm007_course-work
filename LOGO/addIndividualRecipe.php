@@ -1,39 +1,37 @@
 <?php
-
 include('connection.php');
- $chefname=$_POST['chefname'];
- $category=$_POST['category'];
- $RecipeName=$_POST['RecipeName'];
- $Ingredients=$_POST['Ingredients'];
- $Directions=$_POST['Directions'];
 
-    if(empty($_POST["chefname"]) || empty($_POST["category"]) || empty($_POST["RecipeName"]) || empty($_POST["Ingredients"]) || empty($_POST["Directions"]))
-    {
-        echo "All fields are required.";
-    }
-       
-    else
-    {   
-        $sql = "INSERT INTO recipemethod (chefname,category,RecipeName,Ingredients,Directions) VALUES ('$chefname','$category','$RecipeName','$Ingredients','$Directions')";
+$chefname = $_POST['chefname'];
+$category = $_POST['category'];
+$recipename = $_POST['recipename'];
+$ingredients = $_POST['ingredients'];
+$directions = $_POST['directions'];
+
+// Check if file is uploaded successfully
+if(isset($_FILES['image_name']) && $_FILES['image_name']['error'] === UPLOAD_ERR_OK) {
+    // Get file details
+    $file_name = $_FILES['image_name']['name'];
+    $file_tmp = $_FILES['image_name']['tmp_name'];
+
+    // Move uploaded file to desired directory
+    $upload_directory = 'test_upload/';
+    if(move_uploaded_file($file_tmp, $upload_directory . $file_name)) {
+        // File uploaded successfully, proceed with database insertion
+        
+        $sql = "INSERT INTO recipemethod (chefname, category, recipename, ingredients, directions, image_name) VALUES ('$chefname', '$category', '$recipename', '$ingredients', '$directions', '$file_name')";
         $result = mysqli_query($db, $sql);
 
-        $db_host='localhost';
-        $db_user='root';
-        $db_password='';
-        $db_name='estacyrice';
-
-
-
-        if($result)
-        {
+        if($result) {
             echo "Successfully";
             header("Location: home.html");
+            exit(); // Terminate script after redirection
+        } else {
+            echo "Error: " . mysqli_error($db);
         }
-        else
-        {
-            echo "Something Went Wrong!";
-            header("Location: addRecipe.html");
-        }
+    } else {
+        echo "Failed to move uploaded file.";
     }
-   
+} else {
+    echo "Error uploading file: " . $_FILES['image_name']['error'];
+}
 ?>
